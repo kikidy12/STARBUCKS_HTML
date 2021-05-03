@@ -1,5 +1,3 @@
-
-
 const tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -16,7 +14,7 @@ function onYouTubeIframeAPIReady() {
       playlist: 'An6LvWQuj_8'
     },
     events: {
-      onReady: function(event) {
+      onReady: function (event) {
         event.target.mute();
       }
     }
